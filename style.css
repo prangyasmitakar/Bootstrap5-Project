@@ -1,0 +1,225 @@
+body{
+  overflow-x: hidden;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.bg-image {
+  background-image: linear-gradient(
+      to right,
+      rgba(211, 84, 0, 0.7),
+      rgba(12, 33, 128, 0.445)
+    ),
+    url(./Images/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+.bg-image .main-div {
+  padding: 12% 12% 18% 13%;
+}
+.bg-image h1 {
+  font-family: Brush Script MT;
+  font-size: 4rem;
+}
+.bg-image p {
+  font-size: 12px;
+  padding: 1% 32%;
+}
+.bg-image .btn {
+  background: white;
+  border-radius: 26px;
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+}
+.hero-main {
+  padding: 0% 17%;
+  position: relative;
+  bottom: 117px;
+  text-align: center;
+}
+.hero-main p {
+  font-size: 12px;
+}
+.hero-main .btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
+  color: white;
+  width: fit-content;
+  border-radius: 19px;
+  margin: auto;
+  position: relative;
+  top: 16px;
+  font-size: 12px;
+}
+.Creative {
+  padding: 0% 17%;
+}
+.Creative h1 {
+  font-family: Brush Script MT;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.Creative p {
+  font-size: 13px;
+  line-height: 21px;
+}
+.Creative .comma {
+  position: relative;
+  right: 59px;
+  top: 21px;
+}
+.Creative .btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
+  color: white;
+  width: fit-content;
+  border-radius: 19px;
+  font-size: 12px;
+}
+.amaze {
+  padding: 0% 17%;
+}
+.amaze img {
+  width: 100%;
+  height: 95%;
+  border-radius: 13px;
+}
+.amaze h1 {
+  font-family: Brush Script MT;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.amaze p {
+  font-size: 13px;
+  line-height: 21px;
+}
+.amaze .btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
+  color: white;
+  width: fit-content;
+  border-radius: 19px;
+  font-size: 12px;
+  margin: auto;
+}
+.amaze .amazing-feature {
+  position: relative;
+  bottom: 432px;
+  left: 214px;
+  background: white;
+  border-radius: 12px;
+}
+.service {
+  background: #f1eeee;
+}
+.service .sub-col1 {
+  padding: 5% 7% 1% 17%;
+}
+.service h1 {
+  font-family: Brush Script MT;
+  font-size: 4rem;
+  line-height: 59px;
+}
+.service p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.service .btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
+  color: white;
+  width: fit-content;
+  border-radius: 19px;
+  font-size: 12px;
+}
+.perfect-team {
+  margin: 0% 12%;
+  padding: 0% 4% 3% 4%;
+  background: linear-gradient(to bottom, #ffffff 48%, #f1f1f1 35%);
+  border-radius: 5px;
+}
+.perfect-team h1 {
+  font-family: Brush Script MT;
+  font-size: 4rem;
+}
+.perfect-team p {
+  font-size: 13px;
+}
+.graphic{
+    padding-left: 17%;
+}
+.graphic h1{
+    font-family: Brush Script MT;
+  font-size: 4rem;
+}
+.graphic span{
+    position: relative;
+    bottom: 15px;
+    font-weight:600;
+}
+.graphic p{
+    font-size: 13px;
+}
+.graphic .sub-col1{
+padding-right: 6%;
+}
+.graphic .sub-col3{
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+/*--------------------------------Media Queries---------------------------------------*/
+@media (min-width: 1400px) {
+  .amaze .amazing-feature {
+    bottom: 561px;
+    left: 303px;
+  }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1100px) {
+  .amaze .amazing-feature {
+    bottom: 370px;
+    left: 173px;
+  }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .amaze .amazing-feature {
+    bottom: 290px;
+    left: 67px;
+    width: 70%;
+    height: 254px;
+  }
+  .perfect-team {
+    background: linear-gradient(to bottom, #ffffff 63%, #f1f1f1 35%);
+  }
+}
+@media (max-width: 576px) {
+  .amaze .amazing-feature {
+    position: unset;
+  }
+  .service {
+    margin-top: 33%;
+  }
+}
