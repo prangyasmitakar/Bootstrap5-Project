@@ -1,6 +1,3 @@
-/* body {
-  overflow-x: hidden;
-} */
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
   color: white !important;
@@ -185,9 +182,13 @@
   padding-right: 6%;
 }
 .graphic .sub-col3 {
-  background: linear-gradient(to bottom right, rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
+  background: linear-gradient(
+    to bottom right,
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
 }
-.graphic .progres-bar1{
+.graphic .progres-bar1 {
   background: linear-gradient(
     to right,
     rgba(211, 84, 0, 0.7),
@@ -195,160 +196,166 @@
   );
   border-radius: 15px;
 }
-.graphic .label1{
+.graphic .label1 {
   font-weight: 500;
 }
-.graphic .paragraph{
+.graphic .paragraph {
   font-size: 13px;
   color: white;
 }
-.graphic .fa11{
+.graphic .fa11 {
   padding: 4% 5% 4% 5%;
-    border-radius: 50%;
-    background: white;
+  border-radius: 50%;
+  background: white;
 }
-.graphic .fa12{
+.graphic .fa12 {
   padding: 4% 3% 4% 3%;
-    border-radius: 50%;
-    background: white;
+  border-radius: 50%;
+  background: white;
 }
-.graphic .fa13{
+.graphic .fa13 {
   padding: 4% 4% 4% 4%;
-    border-radius: 50%;
-    background: white;
+  border-radius: 50%;
+  background: white;
 }
-.professional .sub-col1{
+.professional .sub-col1 {
   background: linear-gradient(
     to right,
     rgba(211, 84, 0, 0.7),
     rgba(12, 33, 128, 0.7)
   );
 }
-.professional .sub-col11{
+.professional .sub-col11 {
   margin: 17% 0% 17% 25%;
 }
-.professional .heading{
+.professional .heading {
   font-family: Brush Script MT;
   font-size: 3rem;
   line-height: 59px;
 }
-.professional .dollar{
+.professional .dollar {
   font-size: 35px;
- color:rgba(211, 84, 0, 0.7);
- font-weight: bolder;
+  color: rgba(211, 84, 0, 0.7);
+  font-weight: bolder;
 }
-.professional .number{
+.professional .number {
   font-size: 50px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
+  background: -webkit-linear-gradient(
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.professional .dot{
+.professional .dot {
   font-size: 73px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
+  background: -webkit-linear-gradient(
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.professional .number1{
+.professional .number1 {
   font-size: 33px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
+  background: -webkit-linear-gradient(
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.professional .paragraph1{
+.professional .paragraph1 {
   font-weight: 700;
 }
-.professional .paragraph11{
+.professional .paragraph11 {
   font-size: 13px;
   padding: 0 1rem 1rem 1rem;
 }
-.professional .sub-col2{
+.professional .sub-col2 {
   background: linear-gradient(to right, #ffffff 1%, #f1f1f1 0%);
 }
 .professional ul li:before {
-  content: '✓';
+  content: "✓";
 }
-  .professional ul li{
-  list-style: none;   
-   line-height: 32px;
+.professional ul li {
+  list-style: none;
+  line-height: 32px;
 }
-.professional .sub-col22{
-  background: linear-gradient(
-     rgba(211, 84, 0, 0.7),
-    rgba(12, 33, 128, 0.7)
-  );
+.professional .sub-col22 {
+  background: linear-gradient(rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
 }
-.professional .sub-col22{
+.professional .sub-col22 {
   margin: 8.5% 0% 7% 0%;
   text-align: center;
 }
-.professional .btn1{
+.professional .btn1 {
   background: white;
   border-radius: 26px;
   color: black;
   font-weight: 500;
   font-size: 12px;
 }
-.professional .sub-col222{
-padding: 9% 5%;
+.professional .sub-col222 {
+  padding: 9% 5%;
 }
-  .professional .heading2{
+.professional .heading2 {
   font-family: Brush Script MT;
   font-size: 3rem;
   line-height: 36px;
 }
-.professional .p1{
+.professional .p1 {
   font-size: 13px;
 }
-.get-in-touch{
+.get-in-touch {
   background-image: linear-gradient(
-    to right,
-    rgba(211, 84, 0, 0.7),
-    rgba(12, 33, 128, 0.445)
-  ),
-  url(./Images/bg-image.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-width: 100%;
+      to right,
+      rgba(211, 84, 0, 0.7),
+      rgba(12, 33, 128, 0.445)
+    ),
+    url(./Images/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
-.get-in-touch .heading{
+.get-in-touch .heading {
   font-family: Brush Script MT;
   font-size: 3rem;
   text-align: center;
 }
-.get-in-touch .sub-col1{
-  padding:6% 18%;
+.get-in-touch .sub-col1 {
+  padding: 6% 18%;
 }
-.get-in-touch .fa1{
+.get-in-touch .fa1 {
   padding: 2% 2% 2% 2%;
-    border: 2px solid white;
-    border-radius: 50%;
+  border: 2px solid white;
+  border-radius: 50%;
 }
-.get-in-touch .fa11{
+.get-in-touch .fa11 {
   padding: 2% 2.5% 2% 2.5%;
-    border: 2px solid white;
-    border-radius: 50%;
+  border: 2px solid white;
+  border-radius: 50%;
 }
-.footerr{
+.footerr {
   padding: 3% 17%;
 }
-.footerr .img1{
+.footerr .img1 {
   width: 41px;
-    height: 41px;
+  height: 41px;
 }
-.footerr span{
+.footerr span {
   font-size: 14px;
- }
- .footerr .p11{
+}
+.footerr .p11 {
   padding-left: 4%;
   font-weight: 400;
- }
- .footerr .p12{
+}
+.footerr .p12 {
   font-weight: 400;
- }
+}
 /*--------------------------------Media Queries---------------------------------------*/
 @media (min-width: 1400px) {
   .amaze .amazing-feature {
@@ -356,8 +363,8 @@ width: 100%;
     left: 303px;
   }
   .professional ul li {
-     line-height: 28px;
-}
+    line-height: 28px;
+  }
 }
 @media (max-width: 1400px) {
 }
@@ -368,7 +375,7 @@ width: 100%;
   }
   .professional ul li {
     line-height: 20px;
-}
+  }
 }
 @media (max-width: 992px) {
 }
@@ -390,10 +397,10 @@ width: 100%;
   .service {
     margin-top: 33% !important;
   }
-  .perfect-team{
+  .perfect-team {
     background: linear-gradient(to bottom, #ffffff 24%, #f1f1f1 24%);
   }
   .graphic {
     padding-left: 0%;
-}
+  }
 }
