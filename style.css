@@ -393,4 +393,7 @@ width: 100%;
   .perfect-team{
     background: linear-gradient(to bottom, #ffffff 24%, #f1f1f1 24%);
   }
+  .graphic {
+    padding-left: 0%;
+}
 }
