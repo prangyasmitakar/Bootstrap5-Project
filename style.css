@@ -126,6 +126,7 @@
 }
 .service {
   background: #f1eeee;
+  margin-top: -15%;
 }
 .service .sub-col1 {
   padding: 5% 7% 1% 17%;
@@ -150,11 +151,34 @@
   border-radius: 19px;
   font-size: 12px;
 }
+.table-card{
+  padding: 2% 1%;
+  width: 16%;
+  color: white;
+  background-image: linear-gradient( to right, rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.445) );
+  position: relative;
+    bottom: 351px;
+    left: 696px;
+}
+.table-card td{
+  border-bottom: 1px solid white;
+  padding: 3% 2%;
+}
+.table-card .td1{
+  border-right: 1px solid white;
+}
+.table-card .td2{
+  border-bottom: 0px solid white;
+}
+.table-card span{
+  font-size: 13px;
+}
 .perfect-team {
   margin: 0% 12%;
   padding: 0% 4% 3% 4%;
   background: linear-gradient(to bottom, #ffffff 48%, #f1f1f1 35%);
   border-radius: 5px;
+  margin-top: -17%;
 }
 .perfect-team h1 {
   font-family: Brush Script MT;
@@ -218,6 +242,9 @@
   border-radius: 50%;
   background: white;
 }
+.professional{
+  margin-top: 6%;
+}
 .professional .sub-col1 {
   background: linear-gradient(
     to right,
@@ -233,6 +260,9 @@
   font-size: 3rem;
   line-height: 59px;
 }
+.professional .heading1{
+  font-size: 15px;
+}
 .professional .dollar {
   font-size: 35px;
   color: rgba(211, 84, 0, 0.7);
@@ -247,26 +277,20 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* font-family: auto; */
+
 }
 .professional .dot {
   font-size: 73px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(
-    rgba(211, 84, 0, 0.7),
-    rgba(12, 33, 128, 0.7)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ color:rgba(12, 33, 128, 0.7);
 }
 .professional .number1 {
   font-size: 33px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(
-    rgba(211, 84, 0, 0.7),
-    rgba(12, 33, 128, 0.7)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:rgba(12, 33, 128, 0.7); 
+  /* font-family: auto; */
+
 }
 .professional .paragraph1 {
   font-weight: 700;
@@ -275,21 +299,34 @@
   font-size: 13px;
   padding: 0 1rem 1rem 1rem;
 }
+.professional .heading3{
+  letter-spacing: -1px;
+  font-weight: 800;
+  font-size: 1.9rem;
+}
 .professional .sub-col2 {
   background: linear-gradient(to right, #ffffff 1%, #f1f1f1 0%);
 }
-.professional ul li:before {
+/* .professional ul li:before {
   content: "✓";
+} */
+.professional ul{
+padding-left: 0%;
 }
 .professional ul li {
   list-style: none;
   line-height: 32px;
+  display: inline-block;
+}
+.professional .fa-check{
+  padding-right: 2%;
+  font-size: 14px;
 }
 .professional .sub-col22 {
   background: linear-gradient(rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
 }
 .professional .sub-col22 {
-  margin: 8.5% 0% 7% 0%;
+  margin: 8% 0% 7% 0%;
   text-align: center;
 }
 .professional .btn1 {
@@ -309,6 +346,7 @@
 }
 .professional .p1 {
   font-size: 13px;
+  font-weight: 600;
 }
 .get-in-touch {
   background-image: linear-gradient(
@@ -365,16 +403,32 @@
   .professional ul li {
     line-height: 28px;
   }
+  .table-card{
+    bottom: 403px;
+    left: 998px;
+  }
+  .service{
+        margin-top: -4%;
+  }
+  .perfect-team{
+    margin-top: -12%;
+  }
 }
 @media (max-width: 1400px) {
 }
 @media (max-width: 1100px) {
   .amaze .amazing-feature {
-    bottom: 370px;
+    bottom: 382px;
     left: 173px;
   }
   .professional ul li {
     line-height: 20px;
+  }
+  .table-card{
+    left: 534px;
+  }
+  .perfect-team{
+    margin-top: -23%;
   }
 }
 @media (max-width: 992px) {
@@ -388,19 +442,38 @@
   }
   .perfect-team {
     background: linear-gradient(to bottom, #ffffff 63%, #f1f1f1 35%);
-  }
+    }
+  .table-card {
+    width: 23%;
+    bottom: 351px;
+    left: 397px;
+}
+.perfect-team{
+  margin-top: -27%;
+}
 }
 @media (max-width: 576px) {
   .amaze .amazing-feature {
     position: unset;
   }
   .service {
-    margin-top: 33% !important;
+    margin-top: 39% !important;
   }
   .perfect-team {
     background: linear-gradient(to bottom, #ffffff 24%, #f1f1f1 24%);
+      margin-top: 5%;
   }
-  .graphic {
+    .graphic {
     padding-left: 0%;
   }
+  .get-in-touch .sub-col1 {
+    padding: 6% 1% 6% 1%;
+}
+.table-card{
+  position: unset;
+  width: 100%;
+}
+.table-card table{
+  width: 100%;
+}
 }
