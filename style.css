@@ -1,7 +1,6 @@
 .navbar-light .navbar-nav .nav-link {
   color: white !important;
 }
-
 .bg-image {
   position: relative;
   overflow: hidden;
@@ -30,7 +29,6 @@
   background-size: cover;
   background-attachment: fixed;
 }
-
 .bg-image .main-div {
   padding: 12% 12% 18% 13%;
 }
@@ -259,9 +257,9 @@
   font-size: 13px;
 }
 .graphic .gp11 {
-font-weight: 800;
-font-size: 16px;
-margin-top: -1%;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: -1%;
 }
 .graphic .sub-col1 {
   padding-right: 6%;
@@ -379,7 +377,11 @@ margin-top: -1%;
   font-size: 14px;
 }
 .professional .sub-col22 {
-  background: linear-gradient(to bottom right,rgba(211, 84, 0, 0.7), rgba(12, 33, 128, 0.7));
+  background: linear-gradient(
+    to bottom right,
+    rgba(211, 84, 0, 0.7),
+    rgba(12, 33, 128, 0.7)
+  );
 }
 .professional .sub-col22 {
   margin: 8.5% 0% 9% 0%;
@@ -442,17 +444,17 @@ margin-top: -1%;
   padding: 3% 17%;
 }
 .footerr .img1 {
-   height: 53px;
+  height: 53px;
 }
-.footerr .mob{
+.footerr .mob {
   height: 56px;
 }
 .footerr span {
   font-size: 13px;
 }
-.footerr .span2{
+.footerr .span2 {
   position: relative;
-    bottom: 6px;
+  bottom: 6px;
 }
 .footerr .p11 {
   padding-left: 4%;
@@ -668,7 +670,7 @@ margin-top: -1%;
   }
   .perfect-team {
     margin-top: 5%;
-}
+  }
   .graphic {
     padding-left: 0%;
   }
@@ -681,7 +683,9 @@ margin-top: -1%;
   .footerr {
     padding: 3% 1%;
   }
-   .footerr .coll1,  .footerr .coll2, .footerr .coll3{
+  .footerr .coll1,
+  .footerr .coll2,
+  .footerr .coll3 {
     /* justify-content: center; */
     margin-top: 2%;
   }
@@ -714,7 +718,7 @@ margin-top: -1%;
   }
   .perfect-team {
     margin-top: 5%;
-}
+  }
 }
 @media (max-width: 576px) {
   .table-card {
